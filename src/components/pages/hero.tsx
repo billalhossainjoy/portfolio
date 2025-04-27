@@ -7,12 +7,12 @@ import {links} from "@/components/links";
 const Hero: React.FC = () => {
 
     return (
-        <section className={"max-w-7xl mx-auto"} id="public">
-            <div className={"flex justify-between items-center"}>
-                <div className={"flex flex-col justify-center items-start h-100 gap-6"}>
+        <section className={"max-w-7xl mt-10 mx-auto"} id="public">
+            <div className={"flex justify-between items-center flex-col-reverse lg:flex-row"}>
+                <div className={"flex flex-col justify-center items-start h-60 lg:h-100 gap-6 mx-6"}>
                     <div className={"relative"}>
                         <div className={"absolute w-80 h-80 bg-green-500 -z-50 mask-[radial-gradient(ellipse_at_center,white_0%,transparent_70%)] opacity-20"} ></div>
-                        <h1 className={"font-serif text-5xl"}>Let&apos;s build your app.</h1>
+                        <h1 className={"font-serif text-2xl sm:text-4xl md:6xl"}>Let&apos;s build your app.</h1>
                         <p className={"mt-4 text-white/60 md:text-lg"}>
                             I specialize in transforming designs into functional, high-performing web applications.Let&apos;s discuss your next project.
                         </p>
