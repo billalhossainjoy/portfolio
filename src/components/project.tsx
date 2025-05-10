@@ -44,7 +44,7 @@ const Project: React.FC<Props> = ({index, dateTitle, title, link, desriptions, i
                             }
                         </div>
                     </div>
-                    <div className={"w-1/2"}>
+                    <div className={"w-1/2 hidden lg:block"}>
                         <Image src={img} alt={"project image"} className={'rounded-lg'}/>
                     </div>
 

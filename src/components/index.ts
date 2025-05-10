@@ -32,7 +32,7 @@ export const projects = [
         github: "https://github.com/billalhossainjoy/nextjs-messenger"
     },
     {
-        dateTitle: "2025",
+        dateTitle: "2024",
         title: "GQL ( GraphQL Transaction Management ).",
         desriptions: [
             "Complete MERN stack Transaction management app using GraphQL.",

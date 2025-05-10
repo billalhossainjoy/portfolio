@@ -17,14 +17,14 @@ const Hero: React.FC = () => {
                             I specialize in transforming designs into functional, high-performing web applications.Let&apos;s discuss your next project.
                         </p>
                     </div>
-                    <div className={"flex gap-4"}>
-                        <a className={"inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-md"} href={"#projects"}>
-                            <span className={"font-semibold "}>Explore My Work</span>
+                    <div className={"flex gap-2"}>
+                        <a className={"inline-flex items-center gap-2 border border-white/15 px-3 md:px-5 h-12 rounded-md"} href={"#projects"}>
+                            <span className={"font-semibold text-sm md:text-md"}>Explore My Work</span>
                             <BsArrowDown className={"text-white animate-bounce"} />
                         </a>
-                        <a className={"inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-md"} href={"#contact"}>
+                        <a className={"inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-3 md:px-5 rounded-md"} href={"#contact"}>
                             <span>👋</span>
-                            <span className={"font-semibold"} >Let&apos;s Connect</span>
+                            <span className={"font-semibold text-sm md:text-md"} >Let&apos;s Connect</span>
                         </a>
                     </div>
                 </div>
