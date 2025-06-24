@@ -6,7 +6,7 @@ import chatty from "@/assets/projects/chatty.png"
 
 export const projects = [
     {
-        dateTitle: "2024",
+        dateTitle: "2025",
         title: "Social Platform.",
         desriptions: [
             "Complete type safe Next.js Social media application with login, registration Authentication.",
