@@ -5,7 +5,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 import {
     SiNestjs, SiPrisma, SiMongodb, SiExpress, SiApollographql,
     SiExpo, SiReactquery, SiPusher, SiSocketdotio, SiCloudinary,
-    SiArduino, SiShadcnui, SiNginx, SiJest, SiRedis, SiGithubactions, SiRedux
+    SiArduino, SiShadcnui, SiNginx, SiJest, SiRedis, SiGithubactions, SiRedux, SiAppwrite
 } from "react-icons/si";
 import { GrGraphQl } from "react-icons/gr";
 import { DiPostgresql } from "react-icons/di";
@@ -44,6 +44,7 @@ export const backendLibraries: SkillIconOptions[] = [
     { label: "GraphQL", icon: GrGraphQl, background: "#E10098", url: "https://graphql.org/" },
     { label: "Jest", icon: SiJest, background: "#C21325", color: "white", url: "https://jestjs.io/" },
     { label: "Prisma", icon: SiPrisma, background: "white", url: "https://www.prisma.io/" },
+    { label: "Appwrite", icon: SiAppwrite, background: "#F02E65", color: "white", url: "https://appwrite.io/" },
 ];
 
 export const databases: SkillIconOptions[] = [

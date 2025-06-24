@@ -1,9 +1,23 @@
 import messengerImage from "@/assets/projects/messenger.png"
 import gaiImage from "@/assets/projects/gai.png"
+import socialApp from "@/assets/projects/SocialApp.png"
 import gql from "@/assets/projects/gql.png"
 import chatty from "@/assets/projects/chatty.png"
 
 export const projects = [
+    {
+        dateTitle: "2024",
+        title: "Social Platform.",
+        desriptions: [
+            "Complete type safe Next.js Social media application with login, registration Authentication.",
+            "User can post with image, video etc. View infinity Scrolling and like, comment in post. Notifications for like, comment, following.",
+            "Profile Update with features available like change profile picture, name bio etc.",
+            "User send messages, share media files and interact any users.",
+        ],
+        link: "https://nextjs-social-app-paradox.vercel.app",
+        img: socialApp,
+        github: "https://github.com/billalhossainjoy/nextjs_social_app"
+    },
     {
         dateTitle: "2024",
         title: "CFM ( Clearance Form Management system ).",
