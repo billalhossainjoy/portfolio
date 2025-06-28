@@ -1,0 +1,7 @@
+tunnel: 0394f01b-528b-4c46-9b5a-7613b378b60d
+credentials-file: /etc/cloudflared/0394f01b-528b-4c46-9b5a-7613b378b60d.json
+
+ingress:
+  - hostname: tech.gai.gov.bd
+    service: http://client:3000
+  - service: http_status:404
