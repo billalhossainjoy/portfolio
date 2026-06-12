@@ -3,7 +3,7 @@
 import React from 'react';
 import { BsGithub, BsLinkedin, BsFacebook } from "react-icons/bs";
 import { HiMail, HiExternalLink } from "react-icons/hi";
-import { email, links } from "@/components/links";
+import { email } from "@/components/links";
 import ScrollReveal from "@/components/scroll-reveal";
 import WordReveal from "@/components/word-reveal";
 import { IconType } from "react-icons";

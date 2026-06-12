@@ -1,21 +1,7 @@
-import { getDb, schema } from "@/db";
-import { asc, eq } from "drizzle-orm";
-import type { GalleryItem } from "@/db/schema";
+import { getGalleryItems } from "@/lib/content";
 import GalleryClient from "./gallery-client";
 
-async function getGalleryItems(): Promise<GalleryItem[]> {
-  try {
-    return await getDb()
-      .select()
-      .from(schema.gallery)
-      .where(eq(schema.gallery.published, true))
-      .orderBy(asc(schema.gallery.order), asc(schema.gallery.createdAt));
-  } catch {
-    return [];
-  }
-}
-
-export default async function Gallery() {
-  const items = await getGalleryItems();
+export default function Gallery() {
+  const items = getGalleryItems();
   return <GalleryClient items={items} />;
 }

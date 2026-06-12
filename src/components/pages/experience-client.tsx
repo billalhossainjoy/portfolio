@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import type { Experience } from "@/db/schema";
+import type { Experience } from "@/lib/content";
 import { HiOfficeBuilding, HiCheckCircle } from "react-icons/hi";
 import { twMerge } from "tailwind-merge";
 import WordReveal from "@/components/word-reveal";

@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useCallback, useMemo } from "react";
 import { createPortal } from "react-dom";
-import type { GalleryItem } from "@/db/schema";
+import type { GalleryItem } from "@/lib/content";
 import { HiX, HiChevronLeft, HiChevronRight } from "react-icons/hi";
 import { FiZoomIn } from "react-icons/fi";
 import { twMerge } from "tailwind-merge";
