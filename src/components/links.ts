@@ -1,13 +1,15 @@
 import {BsFacebook, BsGithub, BsLinkedin} from "react-icons/bs";
 
+export const email = "bilalhossain.bhj@gmail.com";
+
 export const links = [
     {
-        label: "Github",
+        label: "GitHub",
         icon: BsGithub,
         link: "https://github.com/billalhossainjoy"
     },
     {
-        label: "Linked In",
+        label: "LinkedIn",
         icon: BsLinkedin,
         link: "https://www.linkedin.com/in/billalhossainjoy/"
     },
