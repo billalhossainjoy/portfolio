@@ -113,22 +113,22 @@ const Hero: React.FC = () => {
                 <div className={"flex flex-col items-center gap-5 animate-scale-in shrink-0"} style={d(150)}>
 
                     {/* Photo card with glow + spin ring */}
-                    <div className={"relative"}>
+                    <div className={"relative w-56 h-56 lg:w-72 lg:h-72"}>
                         {/* Outer glow */}
                         <div className={"absolute -inset-4 rounded-3xl blur-2xl bg-green-500/20 animate-glow"} />
 
-                        {/* Spinning conic ring — sits between glow and image */}
+                        {/* Spinning conic ring — spans full parent, bleeds 3px on every side */}
                         <div
-                            className={"absolute -inset-[3px] rounded-2xl opacity-60"}
+                            className={"absolute -inset-[3px] rounded-[18px]"}
                             style={{
-                                background: "conic-gradient(from 0deg, transparent 0%, #4ade80 20%, transparent 40%, #22d3ee 60%, transparent 80%)",
+                                background: "conic-gradient(from 0deg, #4ade80, #22d3ee 50%, #4ade80)",
                                 animation:  "spin 5s linear infinite",
-                                borderRadius: "18px",
+                                opacity: 0.75,
                             }}
                         />
 
-                        {/* The image itself, on top */}
-                        <div className={"relative rounded-2xl overflow-hidden w-56 h-56 lg:w-72 lg:h-72"}>
+                        {/* The image itself — fills exact same square */}
+                        <div className={"absolute inset-0 rounded-2xl overflow-hidden"}>
                             <Image
                                 src={tech}
                                 alt={"Billal Hossain — Full-Stack Developer"}
